@@ -1,15 +1,19 @@
-package main    // first part, package main is needed to run the main function, s. below
+// first part, package main is needed to run the main function, s. below
+package main    
 
-import (        // second part, import modules
+// second part, import modules
+import (        
   "fmt"
 )
 
-var (           // third part, declaration of variables
+// third part, declaration of variables
+var (           
   a int = 2
   b string = "This is a string variable."
 )
 
-func main() {   // fourth part, declaration of the main function
+// fourth part, declaration of the main function
+func main() {   
   fmt.Println(a)
   fmt.Println(b)
 }
